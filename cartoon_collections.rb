@@ -30,6 +30,6 @@ def find_valid_calls(planeteer_calls)
   if (planeteer_calls[0] == "Earth!")
     return planeteer_calls[0]
   end 
-  planeteer_calls.find { |str| str == valid_calls.any?}
+  planeteer_calls.find { |str| str == valid_calls}
 end 
 
